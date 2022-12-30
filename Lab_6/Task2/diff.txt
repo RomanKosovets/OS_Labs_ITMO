@@ -1,0 +1,3 @@
+Сравнение файлов C:\LAB6\TASK2\TEMP\explorer.exe и C:\WINDOWS\EXPLORER.EXE
+FC: различия не найдены
+

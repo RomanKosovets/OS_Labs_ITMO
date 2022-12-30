@@ -1,0 +1,10 @@
+fc services.txt services2.txt > difference.txt
+
+sc queryex type=service state=all | find "SERVICE_NAME" > services.txt
+
+sc stop Dnscache
+TIMEOUT /t 5
+sc queryex type=service state=all | find "SERVICE_NAME" > services2.txt
+sc start Dnscache
+
+Pausecopy *.bat UsedCommands.txt

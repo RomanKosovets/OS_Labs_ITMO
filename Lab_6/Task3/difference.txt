@@ -1,0 +1,19 @@
+Сравнение файлов services.txt и SERVICES2.TXT
+***** services.txt
+SERVICE_NAME: BDESVC
+SERVICE_NAME: CCleanerPerformanceOptimizerService
+***** SERVICES2.TXT
+SERVICE_NAME: BDESVC
+SERVICE_NAME: BITS
+SERVICE_NAME: CCleanerPerformanceOptimizerService
+*****
+
+***** services.txt
+SERVICE_NAME: TroubleshootingSvc
+SERVICE_NAME: tzautoupdate
+***** SERVICES2.TXT
+SERVICE_NAME: TroubleshootingSvc
+SERVICE_NAME: TrustedInstaller
+SERVICE_NAME: tzautoupdate
+*****
+

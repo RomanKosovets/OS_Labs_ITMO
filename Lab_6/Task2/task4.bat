@@ -1,0 +1,3 @@
+SCHTASKS /Delete /TN Task
+
+

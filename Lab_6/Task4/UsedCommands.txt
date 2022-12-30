@@ -1,0 +1,6 @@
+driverquery /FO TABLE /NH > drivers.txt
+
+sort /r drivers.txt > driversSorted.txt
+
+copy *.bat UsedCommands.txt
+

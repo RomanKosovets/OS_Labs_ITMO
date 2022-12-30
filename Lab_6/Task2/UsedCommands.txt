@@ -1,0 +1,13 @@
+cd С:\LAB6\task2
+net share temp="C:\LAB6\task2\temp"
+net use * \\%computername%\temp
+
+forfiles /P "C:\Windows" /C "cmd /c if @fsize GEQ 2097152 copy @path %~dp0temp /Z"
+
+SCHTASKS /Create /SC MINUTE /TN Task /TR "%~dp0task2.bat"
+
+SCHTASKS /Delete /TN Task
+
+fc c:\LAB6\task2\temp\explorer.exe c:\Windows\explorer.exe > diff.txt
+
+copy *.bat UsedCommands.txt

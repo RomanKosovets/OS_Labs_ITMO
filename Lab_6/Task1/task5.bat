@@ -1,0 +1,2 @@
+copy *.bat UsedCommands.txt
+

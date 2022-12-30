@@ -1,0 +1,14 @@
+wmic os get caption, version > version.txt
+wmic computersystem get totalphysicalmemory > FreeAndTotalMemory.txt
+wmic os get freephysicalmemory >> FreeAndTotalMemory.txt
+wmic logicaldisk list brief > disks.txt
+
+md TEST
+xcopy * TEST
+
+copy TEST\* TEST\merge.txt
+
+for /f "skip=1" %%i in ('dir TEST /b/a-d/o-d/t:c') do del TEST\%%i
+
+copy *.bat UsedCommands.txt
+
