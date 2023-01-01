@@ -1,5 +1,7 @@
 ## OS_Labs_ITMO
-
+<h1 align="center">Hi there, I'm <a href="https://daniilshat.ru/" target="_blank">Daniil</a> 
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+<h3 align="center">Computer science student, IT news writer from Russia 🇷🇺</h3>
 ## About
 
 Здесь вы можете увидеть все ЛР по курсу операционных систем  в 3 семестре 2022 год 
@@ -12,10 +14,6 @@ bash.
 4) Работа с файлово-каталожной системой в ОС Linux
 5) Управление памятью в ОС Linux
 6) Консольный интерфейс ОС WINDOWS
-
-
-
-About Text Here
 
 ## Documentation
 
