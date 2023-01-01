@@ -1,4 +1,7 @@
-# OS_Labs_ITMO
+## OS_Labs_ITMO
+
+## About
+
 Здесь вы можете увидеть все ЛР по курсу операционных систем  в 3 семестре 2022 год 
 
 Лабораторные работы:
@@ -10,17 +13,7 @@ bash.
 5) Управление памятью в ОС Linux
 6) Консольный интерфейс ОС WINDOWS
 
-<p align="center">
-      <img src="Project Logo Url" width="726">
-</p>
 
-<p align="center">
-   <img src="" alt="Unity Version">
-   <img src="" alt="Game Version">
-   <img src="" alt="License">
-</p>
-
-## About
 
 About Text Here
 
